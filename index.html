@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vape Shop</title>
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/css/color.css">
+  <script src="dist/javascript/script.js"></script>
+  <style>
+  .mySlides {display:none;}
+  body, html {
+  scroll-behavior: smooth;
+  }
+</style>
+</head>
+<body class="w3-theme-l5">
+  
+
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-center w3-theme-d5 w3-large w3-bar-block" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-hover-theme w3-button w3-xlarge"> &times;</button>
+<hr>
+    <div class="w3-bar-item w3-border-white w3-button w3-theme-d5 w3-hover-theme" onclick="myAccFunc()">
+  &#8744;<i class="fa fa-caret-down"></i></div>
+  <div id="demoAcc" class="w3-hide w3-white w3-card-4">
+  <a href="#beranda" onclick="w3_close()"class="w3-bar-item w3-theme-d5 w3-padding w3-hover-theme w3-button">Beranda</a>
+  <a href="#about" onclick="w3_close()" class="w3-padding w3-theme-d5 w3-bar-item w3-hover-theme w3-button">Tentang</a>
+  </div>
+  <hr>
+  <div class="w3-bar-item w3-border-white w3-button w3-theme-d5 w3-hover-theme" onclick="myAccFunc2()">
+  &#8744;<i class="fa fa-caret-down"></i></div>
+  <div id="demoAcc2" class="w3-hide w3-white w3-card-4">
+  <a href="toko.html" class="w3-bar-item w3-theme-d5 w3-padding w3-hover-theme w3-button">Toko</a>
+  <a href="kontak.html" class="w3-bar-item w3-theme-d5 w3-padding w3-hover-theme w3-button">Kontak</a>
+  <a href="register.html" class="w3-bar-item w3-theme-d5 w3-padding w3-hover-theme w3-button">Member</a>
+  
+  </div>
+  
+ <hr>
+</div>
+
+<!-- Navbar -->
+<div id="beranda" class="w3-bar w3-padding w3-theme-d5">
+  <button class="w3-button w3-bar-item w3-xlarge" onclick="w3_open()">☰</button>
+  <span class=" w3-right w3-bar-item w3-xlarge"><strong>LOGO</strong></span>
+</div>
+
+
+
+<!-- Header -->
+
+<div class="w3-content  w3-display-container">
+
+<div class="w3-display-container w3-animate-fading mySlides">
+  <img src="dist/image/banner1.png" style="width:100%; max-width: 100%; height: auto;">
+  <div class="w3-display-middle w3-text-white w3-center w3-container ">
+    <h4><strong>PROMO 2022</strong></h4>
+    <hr>
+    <p>120 ribu bisa dapet 2 liquid 100ml loh!</p>
+    <a href="toko.html" class="w3-button w3-border w3-border-white w3-round">Beli sekarang</a>
+  </div>
+</div>
+
+<div class="w3-display-container w3-animate-fading mySlides">
+  <img src="dist/image/banner2.png" style="width:100%; max-width: 100%; height: auto;">
+  <div class="w3-display-middle w3-text-white w3-center w3-container ">
+    <h4><strong>KEMUDAHAN BELANJA</strong></h4>
+    <hr>
+    <p>Belanja ditoko kita banyak promonya</p>
+    <a href="toko.html" class="w3-button w3-border w3-border-white w3-round">Beli sekarang</a>
+  </div>
+</div>
+
+<button class="w3-button w3-display-left w3-theme-d1 w3-hover-theme" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-theme-d1 w3-hover-theme" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<!-- Best Produk -->
+<div class=" container w3-padding" style="background-image: url('dist/image/background 1.png'); background-repeat: no-repeat;  background-size: cover;">
+  
+  <div class="w3-card-4 w3-white w3-padding w3-margin w3-center" style="width:50%">
+    <h3><strong>HOTCIG R234 - SILVER</strong></h3>
+    <hr>
+    <p>Hotcig R234 varian warna Silver, Electrical Box Mod dengan konfigurasi baterai ganda 18650. Dilengkapi oleh HM Chip yang diklaim anti-air serta firing tanpa delay dengan maksimum...</p>
+    <button class="w3-button w3-theme-d4 w3-hover-theme w3-border w3-border-theme w3-round">Discover</button>
+  </div>
+</div>
+
+<!-- Produk Unggulan -->
+<div class="w3-container w3-text-theme w3-center w3-padding w3-theme-l4">
+  <h1><strong>PRODUK UNGGULAN</strong></h1>
+  <hr>
+<!-- ITEM 1 -->
+    <div class=" w3-white w3-hover-shadow w3-padding w3-margin w3-row w3-center" >
+      
+    <div class="w3-half w3-container">
+    <h3><strong>HOTCIG R234 - SILVER</strong></h3>
+    <p class="w3-text-red w3-xlarge">540.000</p>
+    <p>Hotcig R234 varian warna...</p>
+    </div>
+    
+    <div class="w3-half w3-container">
+    <img class="w3-margin" src="dist/image/item1.jpg" width="80%" >
+    </div>
+    </div>
+<!-- ITEM 2 -->
+    <div class=" w3-white w3-hover-shadow w3-padding w3-margin w3-row w3-center" >
+      
+    <div class="w3-half w3-container">
+    <h3><strong>UWELL CALIBURN STARTER KIT POD</strong></h3>
+    <p class="w3-text-red w3-xlarge">220.000</p>
+    <p>*100% Authentic Product*100%...</p>
+    </div>
+    
+    <div class="w3-half w3-container">
+    <img class="w3-margin" src="dist/image/item2.jpg" width="80%" >
+    </div>
+    </div>
+<!-- ITEM 3 -->
+    <div class=" w3-white w3-hover-shadow w3-padding w3-margin w3-row w3-center" >
+      
+    <div class="w3-half w3-container">
+    <h3><strong>Voopoo Vinci 2 Aio Kit 1500mah</strong></h3>
+    <p class="w3-text-red w3-xlarge">370.000</p>
+    <p>Voopoo Vinci 2 Aio Kit...</p>
+    </div>
+    
+    <div class="w3-half w3-container">
+    <img class="w3-margin" src="dist/image/item3.jpg" width="80%" >
+    </div>
+    </div>
+</div>
+  
+</div>
+
+<!-- SUBSCRIBE -->
+<div class="w3-container w3-padding w3-theme-l1 ">
+<h5>Subscribe <strong>Company Name</strong> untuk mendapatkan informasi dan penawaran menarik dari kami</h5>
+
+<form class="w3-center">
+
+<input placeholder="Nama" class="w3-input w3-round w3-margin-bottom" type="text">
+<input placeholder="Email" class="w3-input w3-round w3-margin-bottom" type="email">
+<button style="width:100%; max-width:400px;" class="w3-button w3-text-theme w3-border w3-border-theme w3-white w3-round w3-margin-bottom"><strong>SUBSCRIBE</strong></button>
+
+</form>
+
+</div>
+
+<!-- About -->
+<div id="about" class="w3-container w3-padding w3-theme w3-row ">
+  <div class="w3-third">
+   <div class=" w3-display-container w3-white w3-margin" style="width:100px; height:100px;">
+     <h1 class="w3-display-middle">LOGO</h1>
+   </div>
+  </div>
+  
+  <div class="w3-twothird">
+    <h4><strong>Tentang Kami :</strong> </h4>
+  <p>taciti utinam reque dictum vituperata sed augue iusto blandit quisque definitionem graecis adolescens vero platonem varius posuere phasellus deterruisset odio</p>
+  <h4><strong>Sejarah :</strong> </h4>
+  <p>taciti utinam reque dictum vituperata sed augue iusto blandit quisque definitionem graecis adolescens vero platonem varius posuere phasellus deterruisset odio</p>
+  </div>
+  
+
+</div>
+
+<footer class="w3-container w3-padding w3-theme-d5">
+  <p>© 2022 <strong>Company Name</strong> All Right Reserved. Design By <strong>TeguhS</strong></p>
+</footer>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+</div>
+</body>
+</html>
+
+
+
